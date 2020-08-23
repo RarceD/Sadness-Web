@@ -24,16 +24,7 @@ export class FolderPage implements OnInit {
   }
   getCat() {
     this.requestsService.getCatImg()
-      .subscribe((data:Cats ) => this.cat =
-      { 
-        // var value = data.charAt(9);
-        // var i = value.charAt(0);
-        // let test = value.split(",")
-        ...data
-        // console.log(i);
-
-        
-      })
+      .subscribe((data:Cats ) => this.cat = { ...data })
   }
   pressButton(){
     console.log(this.cat.value);
