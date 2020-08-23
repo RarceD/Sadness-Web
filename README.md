@@ -7,8 +7,8 @@ Most of them are just jokes for friends:
 | Little Projects  | Idea                  | Post   |
 | ---------------  |:---------------------:| ------:|
 | Happy Cat        | api call to show cats |  true  |
-| Sadness          | dinamic countdown     |  true  |
-| pass             | pass                  |  pass  |
+| Sadness          | dinamic countdown     |  false |
+| Clock            | Clock-Mqtt Listener   |  false |
 
 ### Happy Cat: ###
 <img src="https://github.com/RarceD/Sadness-Web/blob/master/hAppy_cat/cat.png" alt="drawing" width="400"/>
