@@ -13,11 +13,18 @@
       <ion-title size="large">{{ folder }}</ion-title>
     </ion-toolbar>
   </ion-header>
+<div *ngIf="folder=='Happiness Generator'">
 
   <div id="container">
-    <strong class="capitalize">{{folder}}</strong>
+    <!-- <strong class="capitalize">{{folder}}</strong> -->
+    <img src={{catUrl}} alt="Girl in a jacket" width="600" height="300">  
+    <h1></h1>
+    <h1></h1>
+    <p>
+      <ion-button color="danger" (click) = "pressButton()">
+        More Cats
+      </ion-button>
+    </p>
   </div>
-  <ion-button (click) = "pressButton()">
-    press
-  </ion-button>
+</div>
 </ion-content>

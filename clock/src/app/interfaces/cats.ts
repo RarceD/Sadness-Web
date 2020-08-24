@@ -1,8 +1,7 @@
 export interface Cats {
-    created_at: string,
-    icon_url: string,
+    breeds: string[],
     id: string,
-    updated_at: string,
     url: string
-    value: string
+    width: number,
+    height: number
 }
