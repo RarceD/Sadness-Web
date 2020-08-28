@@ -1,11 +1,16 @@
+import { EventStreamComponentComponent } from './../components/event-stream-component/event-stream-component.component';
 import { RequestsService } from './../services/requests.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgModule } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Cats } from '../interfaces/cats';
+
 @Component({
   selector: 'app-folder',
   templateUrl: './folder.page.html',
   styleUrls: ['./folder.page.scss'],
+})
+@NgModule({
+  declarations: [ EventStreamComponentComponent ],
 })
 export class FolderPage implements OnInit {
   public folder: string;
