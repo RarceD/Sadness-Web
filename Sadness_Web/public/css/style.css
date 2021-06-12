@@ -1,62 +1,72 @@
-body {
-    background: #19031f;
-    text-align: center;
-    margin: auto;
-}
-
-h1 {
-    color: rgb(205, 186, 229);
-    font-size: 60px;
-    text-align: center;
-    line-height: 2;
-    text-shadow: 3px 3px 1px rgb(73, 87, 86);
-    font-family: "Courtier New", Times, serif;
-}
-
-.sad {
-    margin: 1rem;
-    color: rgb(233, 216, 217);
-    font-style: oblique;
-    padding: 1rem;
-    text-align: center;
-    font-size: 2rem;
-    font-family: "Times New Roman", Times, serif;
-}
-
-.counter {
-    color: rgb(68, 125, 231);
-    font-size: 40px;
-    text-align: center;
-    list-style-type: upper-roman;
-    font-family: "Courier";
-}
-
-.button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: rgb(79, 39, 153);
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px rgb(211, 192, 192);
-}
-
-.sep {
-    text-align: center;
-    margin: auto;
-}
-
-.button:hover {
-    background-color: #0b74ec;
-}
-
-.button:active {
-    background-color: #0b74ec;
-    box-shadow: 0 5px rgb(32, 28, 28);
-    transform: translateY(4px);
-}
+    body {
+        background: #121212;
+        text-align: center;
+        margin: auto;
+    }
+    
+    h1 {
+        color: rgb(205, 186, 229);
+        font-size: 60px;
+        text-align: center;
+        line-height: 2;
+        text-shadow: 3px 3px 1px rgb(73, 87, 86);
+        font-family: "Courtier New", Times, serif;
+    }
+    
+    .sad {
+        margin: 1rem;
+        color: rgb(233, 216, 217);
+        font-style: oblique;
+        padding: 1rem;
+        text-align: center;
+        font-size: 2rem;
+        font-family: "Times New Roman", Times, serif;
+    }
+    
+    .counter {
+        /* color: rgb(68, 125, 231); */
+        color: rgb(233, 216, 217);
+        font-size: 40px;
+        text-align: center;
+        list-style-type: upper-roman;
+        font-family: "Courier";
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: rgb(39, 66, 153);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(211, 192, 192);
+    }
+    
+    .sep {
+        text-align: center;
+        margin: auto;
+    }
+    
+    .button:hover {
+        background-color: #0b74ec;
+    }
+    
+    .button:active {
+        background-color: #0b74ec;
+        box-shadow: 0 5px rgb(32, 28, 28);
+        transform: translateY(4px);
+    }
+    
+    img {
+        transition: width 5s;
+        /* background-color: #0b74ec; */
+    }
+    
+    img:hover {
+        box-shadow: 0 0 2px 1px rgba(248, 0, 33, 0.815);
+    }
